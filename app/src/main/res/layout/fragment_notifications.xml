@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDE088"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_count"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#6C78B5"
+        android:text="MusicNumber"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView_mn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#60A1D5"
+        android:text="MusicName"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <Button
+        android:id="@+id/button_play"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:backgroundTint="#E68B85"
+        android:text="@string/play"
+        android:textColor="#F9FAFA"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_prev"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:backgroundTint="#DCB9B6"
+        android:text="@string/prev"
+        android:textColor="#FEFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_pause"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:backgroundTint="#B9BEBF"
+        android:text="@string/pause"
+        android:textColor="#FFFDFD"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:backgroundTint="#DCB9B6"
+        android:text="@string/next"
+        android:textColor="#FEFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_Stop"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:backgroundTint="#E68B85"
+        android:text="@string/stop"
+        android:textColor="#FEFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

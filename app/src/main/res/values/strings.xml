@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">徐佳玮2018110454</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_watch">Watch</string>
+<!--    watch_fragment-->
+    <string name="time">00:00:00</string>
+    <string name="button_start">开始</string>
+    <string name="button_stop">停止</string>
+    <string name="button_restart">重新开始</string>
+<!--    fragment_dashboard-->
+    <string name="reset">RESET</string>
+    <string name="score">Score:</string>
+<!--    fragment_notifications-->
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="stop">停止</string>
+    <string name="next">下一首</string>
+    <string name="prev">上一首</string>
+</resources>
